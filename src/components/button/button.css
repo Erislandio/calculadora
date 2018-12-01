@@ -19,3 +19,17 @@
     opacity: 1;
 }
 
+.button:active{
+    background: #ccc;
+}
+.button.double{
+    grid-column: span 2;
+}
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation:active{
+    background: #f13281cc;
+}
+

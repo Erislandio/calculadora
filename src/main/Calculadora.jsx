@@ -4,7 +4,26 @@ import Button from '../components/button/Button';
 import Display from '../components/display/Display';
 
 class Calculadora extends Component {
+
+
+    clearMemory = () => {
+        console.log('limpar')
+    }
+
+    setOpetation = (operation) => {
+        console.log(operation)
+    }
+
+    addDigit = (n) => {
+        console.log(n)
+    }
+
     render() {
+
+        const addDigit = n => this.addDigit(n) 
+        const setOpetation = op => this.setOpetation(op)
+
+
         return (
             <div className="calculator">
                 <Display value="100"/>
