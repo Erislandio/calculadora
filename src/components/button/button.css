@@ -29,7 +29,11 @@
     grid-column: span 3;
 }
 
+.button.operation{
+    background: coral
+}
+
 .button.operation:active{
-    background: #f13281cc;
+    background: orangered;
 }
 

@@ -9,7 +9,7 @@ class Button extends Component {
                     onClick={e => this.props.click && this.props.click(this.props.label)}
                     className={`
                     button
-                    ${this.props.operaton ? 'operation' : ''}
+                    ${this.props.operation ? 'operation' : ''}
                     ${this.props.double ? 'double' : ''}
                     ${this.props.triple ? 'triple' : ''}
                     
